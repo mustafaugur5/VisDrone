@@ -1,0 +1,14 @@
+  {
+    "model_path": "/content/Modelss/yolov8m_e25b4p10C/best.pt",
+    "model_type": "yolov8",
+    "model_device": "cuda:0",
+    "slice_height": 512,
+    "slice_width": 512,
+    "overlap_height_ratio": 0.2,
+    "overlap_width_ratio": 0.2,
+    "image_dir": "/content/yolov5/datasets/VisDrone/VisDrone2019-DET-test-dev/images",
+    "label_dir": "/content/yolov5/datasets/VisDrone/VisDrone2019-DET-test-dev/labels",
+    "project": "runs/sahi_eval",
+    "name": "exp",
+    "return_dict": true
+  }
