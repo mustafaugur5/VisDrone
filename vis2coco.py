@@ -80,47 +80,47 @@ def convert(dir_data):
       truck (6), tricycle (7), awning-tricycle (8), bus (9), motor (10), others (11)
       '''
       dict_coco['categories'] = [{
-          "id": 1,
+          "id": 0,
           "name": "pedestrian",
           "supercategory": "none"},
           {
-          "id": 2,
+          "id": 1,
           "name": "people",
           "supercategory": "none"},
           {
-          "id": 3,
+          "id": 2,
           "name": "bicycle",
           "supercategory": "none"},
           {
-          "id": 4,
+          "id": 3,
           "name": "car",
           "supercategory": "none"},
           {
-          "id": 5,
+          "id": 4,
           "name": "van",
           "supercategory": "none"},
           {
-          "id": 6,
+          "id": 5,
           "name": "truck",
           "supercategory": "none"},
           {
-          "id": 7,
+          "id": 6,
           "name": "tricycle",
           "supercategory": "none"},
           {
-          "id": 8,
+          "id": 7,
           "name": "awning-tricycle",
           "supercategory": "none"},
           {
-          "id": 9,
+          "id": 8,
           "name": "bus",
           "supercategory": "none"},
           {
-          "id": 10,
+          "id": 9,
           "name": "motor",
           "supercategory": "none"},
           {
-          "id": 11,
+          "id": 10,
           "name": "others",
           "supercategory": "none"}
           ]
