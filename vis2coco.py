@@ -53,7 +53,7 @@ def convert(dir_data):
           
           annotations = annotations[:-1]
           for detection in annotations:
-              category_id = int(detection[5])
+              category_id = int(detection[5]) -1
               bbox = [int(detection[0]), int(detection[1]), int(detection[2]), int(detection[3])]
               area = int(detection[2]) * int(detection[3])
               segmentation = []
